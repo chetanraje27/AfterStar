@@ -1,0 +1,22 @@
+NoOfDays = Current_Date - Created_Date
+
+NoOfratings = count(ratings_id)
+
+AVGRating = AVG(rating)
+
+
+n = (1 - (NoOfDays / 10)) * 100   (considering 100 days)
+
+r = NoOfratings  (Out of 100 rating)
+
+AVG_r =  AVGRating * 20
+
+
+
+
+Performance = (n + r + AVG_r) / 3
+
+
+
+
+
